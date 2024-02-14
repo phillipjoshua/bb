@@ -41,11 +41,14 @@ header nav a.active {
 body {
   background: #42455a;
 }
+
 section {
   min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 /* Nav */
 section:nth-child(1) {
@@ -59,6 +62,7 @@ section:nth-child(2) {
 /* About */
 section:nth-child(3) {
   color: #e0ffff;
+  background: #42455a;
 }
 /* Services */
 section:nth-child(4) {
@@ -67,6 +71,7 @@ section:nth-child(4) {
 /* Comtacts */
 section:nth-child(5) {
   color: #e0ffff;
+  background: #42455a;
 }
 /* Contacts */
 section:nth-child(6) {
@@ -76,12 +81,12 @@ section .container {
   margin: 100px;
 }
 section h1 {
-  color: #e0ffff;
+  color:black;
   font-size: 3rem;
   margin: 20px;
 }
 section h2 {
-  color: #e0ffff;
+  color:black;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
@@ -94,22 +99,13 @@ section .text-container .text-box {
   margin: 20px;
   padding: 20px;
   background: #00c2cb;
+  border-radius: 5%;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-
-@media (max-width: 900px) {
-  section h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
-  section .text-container {
-    flex-direction: column;
-  }
 }
 
 .reveal {
@@ -144,4 +140,9 @@ p{
 }
 h1{
   color: #e0ffff;
+}
+
+#wave {
+  width: 90%;
+  height: auto;
 }
