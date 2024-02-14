@@ -53,7 +53,7 @@ section:nth-child(1) {
 }
 /* Home */
 section:nth-child(2) {
-  color: #42455a;
+  color: #e0ffff;
   background: #e0ffff;
 }
 /* About */
@@ -62,8 +62,7 @@ section:nth-child(3) {
 }
 /* Services */
 section:nth-child(4) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #e0ffff;
 }
 /* Comtacts */
 section:nth-child(5) {
@@ -71,8 +70,7 @@ section:nth-child(5) {
 }
 /* Contacts */
 section:nth-child(6) {
-  color: #42455a;
-  background: #e0ffff;
+  color: #e0ffff;
 }
 section .container {
   margin: 100px;
@@ -82,11 +80,13 @@ section h1 {
   margin: 20px;
 }
 section h2 {
+  color: #e0ffff;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
 }
 section .text-container {
+  color: #e0ffff;
   display: flex;
 }
 section .text-container .text-box {
