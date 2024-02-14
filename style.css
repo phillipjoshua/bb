@@ -76,6 +76,7 @@ section .container {
   margin: 100px;
 }
 section h1 {
+  color: #e0ffff;
   font-size: 3rem;
   margin: 20px;
 }
@@ -141,4 +142,3 @@ p{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-
